@@ -16,6 +16,31 @@
 
 - git config --list
 
-### fazer um comit
+### fazer um commits
 
 - git add . vai adicionar os aquivos recentes
+
+- git commit -m "created redme.md" messagem que vai ficar na alterção
+
+### ver os commits e as alteracoes
+
+- git log
+
+#### uma forma mais resumida
+
+- git log --oneline
+
+#### vai trazer a quantidades de commits que quiser nesse caso 3
+
+- git log -n 3
+
+### Git Status
+
+#### vai ferificar as alteraçoes
+
+- git status
+
+#### estagios dos aquivios
+
+working directory
+
