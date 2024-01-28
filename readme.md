@@ -42,5 +42,6 @@
 
 #### estagios dos aquivios
 
-working directory
-
+- working directory
+- unstage
+- log
