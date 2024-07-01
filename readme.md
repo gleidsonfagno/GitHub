@@ -70,4 +70,8 @@ vai pegar os aquivos que estao no stage e voltar para aquivos modificados
 
 ### Corrigi o ultimo commit
 
--
+se ja fez o commit so executar
+
+- git commit --amend -m "corrigindo commit"
+
+### Desfazer o último commit
