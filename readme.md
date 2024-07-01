@@ -45,3 +45,29 @@
 - working directory
 - unstage
 - log
+
+### HEAD
+
+- ele mostra  em que ponto da historio o projeto se encontra
+
+### Git diff
+
+- vai mostrar o que mudou
+- git diff
+
+### Desfazendo modificações
+
+- git restore nome do aquivo /se for aquivo unico
+
+- git restore . para todas as alteracoes
+
+### Restaurando da Staged
+
+- depois que execitar o git add .
+- git restore --staged .
+vai pegar os aquivos que estao no stage e voltar para aquivos modificados
+- working directory
+
+### Corrigi o ultimo commit
+
+-
