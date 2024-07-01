@@ -87,3 +87,25 @@ git remote add origin https://github.com/gleidsonfagno/GitHub.git
 git branch -M main
 git push -u origin main
 ```
+
+### Arquivo giignore
+
+ele e lido pelo github e tudo que estiver escrioto dentro dele e nao vai ser enviado para o reposditorio github.
+
+### Gerar uma nova chave SSH
+
+[GitHubDocs](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#about-ssh-key-passphrases
+)
+
+```bash
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+# assim que fica no terminal adiciona o eval no Enter file
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (C:\Users\gleid/.ssh/id_ed25519): eval $(ssh-agent -s)
+
+# remove 
+Remove-Item -Force -Path C:\Users\gleid\.ssh\id_ed25519
+
+adiciona a chave publica no repositorio a do arquivo .epub
+```
