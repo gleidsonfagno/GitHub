@@ -12,7 +12,7 @@
 
 - git config --global user.email "<usuarionome@gmail.com>"
 
-#### vai listar as configuraçoes
+### vai listar as configuraçoes
 
 - git config --list
 
@@ -26,21 +26,21 @@
 
 - git log
 
-#### uma forma mais resumida
+### uma forma mais resumida
 
 - git log --oneline
 
-#### vai trazer a quantidades de commits que quiser nesse caso 3
+### vai trazer a quantidades de commits que quiser nesse caso 3
 
 - git log -n 3
 
 ### Git Status
 
-#### vai ferificar as alteraçoes
+### vai ferificar as alteraçoes
 
 - git status
 
-#### estagios dos aquivios
+### estagios dos aquivios
 
 - working directory
 - unstage
@@ -63,7 +63,7 @@
 
 ### Restaurando da Staged
 
-- depois que execitar o git add .
+- depois que executar o git add .
 - git restore --staged .
 vai pegar os aquivos que estao no stage e voltar para aquivos modificados
 - working directory
@@ -75,3 +75,15 @@ se ja fez o commit so executar
 - git commit --amend -m "corrigindo commit"
 
 ### Desfazer o último commit
+
+depois de fazer o commit
+
+- git reset --soft HEAD~1
+
+### Git Push
+
+```bash
+git remote add origin https://github.com/gleidsonfagno/GitHub.git
+git branch -M main
+git push -u origin main
+```
