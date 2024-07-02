@@ -113,3 +113,7 @@ adiciona a chave publica no repositorio a do arquivo .epub
 ### Gerenciando mudanças com git branches e git tags
 
 Para mais informações, veja a [Documentação Detalhada](./docs/README.md).
+
+### Pull request
+
+Para mais informações, veja a [Documentação Detalhada](./docs/Pullrequest.md).
