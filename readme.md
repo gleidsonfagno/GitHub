@@ -88,7 +88,7 @@ git branch -M main
 git push -u origin main
 ```
 
-### Arquivo giignore
+### Arquivo gitignore
 
 ele e lido pelo github e tudo que estiver escrioto dentro dele e nao vai ser enviado para o reposditorio github.
 
@@ -109,3 +109,7 @@ Remove-Item -Force -Path C:\Users\gleid\.ssh\id_ed25519
 
 adiciona a chave publica no repositorio a do arquivo .epub
 ```
+
+### Gerenciando mudanças com git branches e git tags
+
+Para mais informações, veja a [Documentação Detalhada](./docs/README.md).
